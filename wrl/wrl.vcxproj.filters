@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="x3d_inc">
+      <UniqueIdentifier>{f6348b9b-1735-487e-b7f4-2bb8deb8d25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dll_src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="dll_inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="x3d_src">
+      <UniqueIdentifier>{e5dc197f-14e2-4d70-9fc0-1bd0960aa98c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>dll_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>dll_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Inc\wrl.h">
+      <Filter>dll_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AnchorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AppearanceChildNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AppearanceNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Arc2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ArcClose2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AudioClipNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BackgroundNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BillboardNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BindableNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BooleanFilterNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BooleanSequencerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BooleanTimeTriggerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BooleanToggleNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BooleanTriggerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bounded2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bounded2DObject.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoundedGrouping2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoundedGroupingNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoundedNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoundedObject.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoundingBox.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoundingBox2D.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoxNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Circle2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CollisionNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColorInterpolatorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColorRGBANode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ComposedGeometryNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConeNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoordinateInterpolator2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoordinateInterpolatorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoordinateNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CylinderNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CylinderSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DEF.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DEFNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DirectionalLightNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Disk2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DragSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ElevationGridNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnvironmentalSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Event.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ExtrusionNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Field.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileGIF89a.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileImage.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileJPEG.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FilePNG.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileTarga.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileUtil.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FillPropertiesNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FogNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FontStyleNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GeometricPropertyNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Geometry2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Geometry3DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GeometryNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphic3D.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Grouping2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GroupingNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GroupNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImageTextureNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IndexedFaceSetNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IndexedLineSetNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InfoNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InlineNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IntegerSequencerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IntegerTriggerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InterpolatorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JavaVM.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JScript.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KeyDeviceSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KeySensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LightNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LinePropertiesNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LinkedList.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LinkedListNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LoadSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LODNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MaterialNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MathUtil.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFBool.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFChar.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFColor.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFColorRGBA.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFDouble.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFFloat.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MField.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFInt32.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFRotation.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFString.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFTime.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFVec2d.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFVec2f.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFVec3d.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFVec3f.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MovieTextureNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MultiTextureCoordinateNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MultiTextureNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MultiTextureTransformNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NavigationInfoNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NetworkSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Node.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeList.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeSequencerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeString.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeType.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NormalInterpolatorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NormalNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OldCpp.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OrientationInterpolatorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parser.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParserFunc.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParserNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParserResult.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PixelTextureNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlaneSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointingDeviceSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointLightNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointSetNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Polyline2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Polypoint2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PositionInterpolator2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PositionInterpolatorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PROTO.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProximitySensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rectangle2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RootNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Route.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RouteList.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RouteNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScalarInterpolatorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneGraph.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScriptNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SequencerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFBool.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFChar.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFColor.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFColorRGBA.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFDouble.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFFloat.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFImage.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFInt32.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFMatrix.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFRotation.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFString.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFTime.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFVec2d.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFVec2f.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFVec3d.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFVec3f.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shape2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShapeNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoundNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoundSourceNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SphereNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SphereSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpotLightNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StaticGroupNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StringSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StringUtil.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SwitchNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureCoordinateGeneratorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureCoordinateNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureTransformNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeTriggerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TouchSensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transform2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TransformNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TriangleFanSetNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TriangleSet2DNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TriangleSetNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TriangleStripSetNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TriggerNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UrlFile.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vector.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ViewpointNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VisibilitySensorNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRML97.tab.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRML97Fields.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRML97Nodes.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRML97Parser.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRML97ParserFunc.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WorldInfoNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\X3DFields.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\X3DNodes.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\X3DParser.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\X3DParserHandlers.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\X3DParserTokenizer.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMLElement.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMLNode.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VRML97.tab.h">
+      <Filter>x3d_src</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MyVrml.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MyVrmlConfig.h">
+      <Filter>x3d_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>dll_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Inc\MyArray.h">
+      <Filter>dll_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>dll_inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>dll_src</Filter>
+    </ClCompile>
+    <ClCompile Include="wrl.cpp">
+      <Filter>dll_src</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>dll_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AnchorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AppearanceNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Arc2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ArcClose2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AudioClipNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BackgroundNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BillboardNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BindableNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BooleanFilterNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BooleanSequencerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BooleanTimeTriggerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BooleanToggleNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BooleanTriggerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Bounded2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BoundedGrouping2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BoundedGroupingNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BoundedNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BoundingBox.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BoundingBox2D.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BoxNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Circle2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CollisionNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ColorInterpolatorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ColorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ColorRGBANode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ComposedGeometryNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConeNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoordinateInterpolator2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoordinateInterpolatorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoordinateNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CylinderNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CylinderSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DEF.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DEFNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DirectionalLightNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Disk2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DragSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ElevationGridNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnvironmentalSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Event.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ExtrusionNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Field.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileGIF89a.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileImage.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileJPEG.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FilePNG.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileTarga.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileUtil.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FillPropertiesNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FogNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FontStyleNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry3DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GeometryNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Grouping2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GroupingNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GroupNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ImageTextureNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IndexedFaceSetNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IndexedLineSetNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InlineNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IntegerSequencerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IntegerTriggerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InterpolatorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\JavaVM.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\JNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\JScript.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\KeyDeviceSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\KeySensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LightNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LinePropertiesNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoadSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LODNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MaterialNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MathUtil.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFBool.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFChar.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFColor.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFColorRGBA.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFDouble.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFFloat.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MField.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFInt32.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFRotation.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFString.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFTime.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFVec2d.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFVec2f.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFVec3d.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MFVec3f.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MovieTextureNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MultiTextureCoordinateNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MultiTextureNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MultiTextureTransformNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NavigationInfoNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NetworkSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Node.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NodeList.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NodeSequencerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NodeType.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NormalInterpolatorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NormalNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\OrientationInterpolatorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Parser.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParserFunc.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParserNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PixelTextureNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlaneSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PointLightNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PointSetNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Polyline2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Polypoint2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PositionInterpolator2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PositionInterpolatorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PROTO.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ProximitySensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Rectangle2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RootNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Route.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RouteList.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RouteNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScalarInterpolatorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneGraph.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScriptNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SequencerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFBool.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFChar.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFColor.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFColorRGBA.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFDouble.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFFloat.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFImage.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFInt32.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFMatrix.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFRotation.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFString.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFTime.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFVec2d.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFVec2f.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFVec3d.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SFVec3f.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shape2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShapeNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SoundNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SoundSourceNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SphereNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SphereSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpotLightNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StaticGroupNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StringSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StringUtil.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SwitchNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureCoordinateGeneratorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureCoordinateNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureTransformNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TimeSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TimeTriggerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TouchSensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Transform2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TransformNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TriangleFanSetNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TriangleSet2DNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TriangleSetNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TriangleStripSetNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TriggerNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UrlFile.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ViewpointNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VisibilitySensorNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VRML97.tab.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VRML97.yy.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VRML97Parser.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VRML97ParserFunc.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WorldInfoNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\X3DParser.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\X3DParserHandlers.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\X3DParserTokenizer.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XMLElement.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XMLNode.cpp">
+      <Filter>x3d_src</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.cpp">
+      <Filter>dll_src</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>dll_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
