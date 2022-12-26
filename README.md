@@ -8,5 +8,5 @@ introduction
 When pressing key, "forward arrow", camera come over to model, and when pressing key "backward arrow", camera is far from model.
 When pressing "left arrow" key, camera moves left, and when pressing "right arrow", camera moves right.
 You can confirm size of mesh via dialogue box.
-my contact info:email:greenhouse0493@gmail.com
+my contact info:ppeng0674@gmail.com
 
